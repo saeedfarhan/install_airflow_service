@@ -21,7 +21,7 @@ sudo mkdir /opt/<project_name>
 ```
 sudo chmod 777 /opt/<project_name>
 ```
-# Initialise the airflow database
+# Initialize the airflow database
 ```
 airflow db init
 ```
