@@ -57,7 +57,7 @@ sudo mkdir /etc/sysconfig
 # This file is the environment file for Airflow. Put this file in /etc/sysconfig/airflow per default
 # configuration of the systemd unit files.
 #
-AIRFLOW_CONFIG=/opt/cloudtdms/airflow.cfg
+AIRFLOW_CONFIG=/opt/<project_name>/airflow.cfg
 AIRFLOW_HOME=/opt/<project_name>
 ```
 
