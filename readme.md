@@ -97,6 +97,7 @@ ExecStart=/usr/local/bin/airflow scheduler
 Restart=always
 RestartSec=5s
 
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -132,7 +133,7 @@ EnvironmentFile=/etc/sysconfig/airflow
 User=<user>
 Group=<group>
 Type=simple
-ExecStart=/usr/local/bin/airflow webserver --pid /run/cloudtdms/webserver.pid
+ExecStart=/usr/local/bin/airflow webserver --pid /run/<project_name>/webserver.pid
 Restart=on-failure
 RestartSec=5s
 PrivateTmp=true
